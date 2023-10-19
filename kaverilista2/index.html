@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverilista</title>
+    <script src="script.js" async></script>
+</head>
+
+<body>
+    <h1 id="header">Kaverilista</h1>
+    <form id="friendForm" action="#">
+        <input type="text" id="nameInput" placeholder="Syötä nimi" />
+
+        <button type="button" onclick="lisaaNimi()">
+            <i class="fa-solid fa-plus"></i> Lisää Kaveri
+        </button>
+        <button type="button" onclick="poistaNimi()">
+            <i class="fa-solid fa-plus"></i> Poista Kaveri
+        </button>
+        <button type="button" onclick="jarjestaNimi()">
+            <i class="fa-solid fa-plus"></i> Järjestä Kaverit
+        </button>
+    </form>
+
+
+    <ul id="list" class="items">
+
+    </ul>
+
+
+
+</body>
+
+</html>
